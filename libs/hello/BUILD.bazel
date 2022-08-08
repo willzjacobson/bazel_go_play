@@ -3,6 +3,6 @@ load("@io_bazel_rules_go//go:def.bzl", "go_library")
 go_library(
     name = "hello",
     srcs = ["main.go"],
-    importpath = "privacy_go/libs/hello",
+    importpath = "bazel_go_play/libs/hello",
     visibility = ["//visibility:public"],
 )

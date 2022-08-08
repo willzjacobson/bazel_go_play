@@ -3,8 +3,9 @@ package main
 import (
 	"net/http"
 
+	"bazel_go_play/libs/hello"
+
 	"github.com/labstack/echo/v4"
-	"privacy_go/libs/hello"
 )
 
 func main() {
