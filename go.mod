@@ -1,4 +1,4 @@
-module privacy_go
+module github.com/willzjacobson/bazel_go_play
 
 go 1.18
 
