@@ -8,6 +8,9 @@ cd "$(git rev-parse --show-toplevel)"
 
 # Get a list of the current files in package form by querying Bazel.
 files=()
+M=$(git diff --name-only ${COMMIT_RANGE} )
+echo "${M[@]}"
+exit 0
 for file in $(git diff --name-only ${COMMIT_RANGE} ); do
   echo "FILE:: $file"
   files+=($(bazel query $file))

@@ -3,7 +3,7 @@ package main
 import (
 	"net/http"
 
-	"bazel_go_play/libs/hello"
+	"github.com/willzjacobson/bazel_go_play/libs/hello"
 
 	"github.com/labstack/echo/v4"
 )
